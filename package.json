@@ -1,0 +1,28 @@
+{
+    "name": "jquery.fakeloader",
+    "version": "1.0.0",
+    "description": "A lightweight jQuery plugin that helps you create an animated spinner with a fullscreen loading mask to simulate the page preloading effect.",
+    "main": "dist/jquery.fakeloader.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xuanhoa88/jquery.fakeloader.git"
+    },
+    "keywords": [
+        "page preloading",
+        "fullscreen preloading",
+        "spinner",
+        "fullscreen spinner"
+    ],
+    "author": "XuaNguyen <xuan.0211@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xuanhoa88/jquery.fakeloader/issues"
+    },
+    "homepage": "https://github.com/xuanhoa88/jquery.fakeloader#readme",
+    "devDependencies": {
+        "jquery": "^3.0"
+    }
+}
