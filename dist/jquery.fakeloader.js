@@ -87,15 +87,18 @@
 
     //Center Spinner
     function centerLoader() {
-        var winW = $(window).width();
-        var winH = $(window).height();
-        var spinnerW = $('.fl').outerWidth();
-        var spinnerH = $('.fl').outerHeight();
-
         $('.fl').css({
-            'position': 'absolute',
-            'left': (winW / 2) - (spinnerW / 2),
-            'top': (winH / 2) - (spinnerH / 2)
+            position: 'relative',
+            height: '100%',
+            width: '100%'
+        });
+        $('.fl > img').css({
+            position: 'absolute',
+            left: 0,
+            right: 0,
+            top: 0,
+            bottom: 0,
+            margin: 'auto'
         });
     }
 
